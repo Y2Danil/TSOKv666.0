@@ -39,7 +39,7 @@
             <li class="nav-item rubric_header">
               <a href="{% url 'logout'%}?next={{request.path}}" class="nav-link">Выход</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item search">
              <form action="{% url 'blog:poisck' %}" method="POST" class='form_poisck float-left float-sm-left float-md-left'>
               {% csrf_token %}
               <input class='poisck_input' type="text" name='poisck' placeholder="Поиск">
