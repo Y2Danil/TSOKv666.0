@@ -37,12 +37,13 @@ def by_rubric(request, rubric_id):
 def detail(request, article_id):
   try:
     a = Article.objects.get( id = article_id );
+    Rubrics = Rubric.objects.all()
   except:
     raise Http404('Ошибка 404')
   
   Comments = a.comment_set.order_by('-pub_date')
   
-  return render(request, 'Top/detail.html', {'Article': a, 'Comments': Comments})
+  return render(request, 'Top/detail.html', {'Article': a, 'Comments': Comments, 'Rubrics': Rubrics})
 
 def list_comment(request, article_id):
   try:

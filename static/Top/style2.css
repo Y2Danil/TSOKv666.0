@@ -1,0 +1,117 @@
+/*body {
+  margin-top: 75px;
+}
+
+body * {
+  padding: 0;
+  margin: 0;
+}*/
+
+form img {
+  width: 23px !important;
+  margin-left: -4px !important;
+}
+
+form button {
+  width: 30px;
+} 
+
+h1 > a {
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.header {
+  padding-top: 0;
+}
+
+.navbar-container {
+  margin-bottom: 10px;
+}
+
+/*.header {
+  width: 100%;
+}
+
+.TOPinHEADER {
+  font-size: 24px;
+  font-weight: 700;
+  color: #000;
+  margin-left: 10px;
+  transition: 1s;
+}
+
+.TOPinHEADER:hover {
+  color: #333;
+  text-decoration: none;
+}
+
+.nav-item img {
+  width: 26px;
+  margin-bottom: 4px;
+  margin-top: 2px;
+}
+
+#fixed {
+  position: fixed;
+  left: 0; bottom: 0;
+  height: 200px;
+  width: 100%;
+  border-top: 4px solid #f0f0f0;
+  border-bottom: 4px solid #f0f0f0;
+  background: url('/') no-repeat center center fixed;
+  background-blend-mode: multiply;
+  background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+}
+
+.wrapper {
+  display: flex;
+}*/
+
+@media (max-width: 767px) {
+}
+
+@media (min-width: 768px) {
+  aside {
+    position: sticky;
+    top: 0;
+    overflow-y: auto;
+    height: 150vh;
+  }
+  .navbar-container .navbar {
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    height: 100%;
+  }
+  .navbar-container .navbar-collapse {
+    align-items: flex-start;
+  }
+  .navbar-container .nav {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .navbar-container .navbar-nav {
+    flex-direction: column !important;
+  }
+}
+
+@media (min-width: 992px) {
+}
+
+@media (max-width: 1119px) {
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1365px) {
+}
+
+@media (min-width: 1500px) {
+}
