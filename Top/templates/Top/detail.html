@@ -55,7 +55,7 @@
         {% if Comment.author == 'Admin' %}
         <div style=''>
           <strong style='color: rgb(0, 0, 0); font-weight: 800; font-size: 18px;'>{{ Comment.author }}</strong>
-          <p>{{ Comment.comment_text }}</p>
+          <p style='font-weight: 600;'>{{ Comment.comment_text }}</p>
         </div>
         {% else %}
         <div>
