@@ -53,7 +53,7 @@
     {% if Comments %}
       {% for Comment in Comments %}
         {% if Comment.author == 'Admin' %}
-        <div style=''>
+        <div>
           <strong style='color: rgb(0, 0, 0); font-weight: 800; font-size: 18px;'>{{ Comment.author }}</strong>
           <p style='font-weight: 600;'>{{ Comment.comment_text }}</p>
         </div>
